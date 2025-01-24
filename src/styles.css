@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+:root {
+  --main-color: #34353A;
+  --alt-main-color: #31333B;
+  --second-color: #FFC86B;
+  --text-color: #F9F9F9;
+  --alt-text-color: #44403C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: "Lexend Giga", serif !important;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: var(--alt-text-color)
+}

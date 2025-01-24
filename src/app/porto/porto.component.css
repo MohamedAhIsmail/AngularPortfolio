@@ -1,0 +1,39 @@
+.porto {
+  background-color: #31333B;
+}
+
+.porto h2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.porto .card {
+  position: relative;
+  overflow: hidden;
+  border: #31333B;
+  background-color: #3D3E42;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 20px;
+}
+.porto .card img {
+  height: 300px;
+  filter: grayscale();
+  border-radius: 5px;
+}
+
+.porto .proj-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.porto .proj-info .btn {
+  border: 2px solid var(--second-color);
+}
+
+.porto .proj-info a {
+  color: #fff;
+  text-decoration: none;
+}
